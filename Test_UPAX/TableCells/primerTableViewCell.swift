@@ -10,6 +10,11 @@ import UIKit
 
 class primerTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var tituloLbl: UILabel!
+    @IBOutlet weak var bulletImg: UIImageView!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
