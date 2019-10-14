@@ -14,6 +14,15 @@
 		1FE6A1F023503F0000081233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6A1EE23503F0000081233 /* LaunchScreen.storyboard */; };
 		1FE6A1FA2350403100081233 /* PrimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6A1F92350403100081233 /* PrimerViewController.swift */; };
 		1FE6A1FC235040A000081233 /* primerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6A1FB235040A000081233 /* primerTableViewCell.swift */; };
+		1FE6A1FE23530D9F00081233 /* SegundoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6A1FD23530D9F00081233 /* SegundoViewController.swift */; };
+		1FE6A20023530E0C00081233 /* CamaraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6A1FF23530E0C00081233 /* CamaraCell.swift */; };
+		1FE6A20223530E3100081233 /* FotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6A20123530E3100081233 /* FotoCell.swift */; };
+		1FE6A20423530E4700081233 /* NombreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6A20323530E4700081233 /* NombreCell.swift */; };
+		1FE6A2062353121800081233 /* TelefonoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6A2052353121800081233 /* TelefonoCell.swift */; };
+		1FE6A208235312B100081233 /* FechaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6A207235312B100081233 /* FechaCell.swift */; };
+		1FE6A20A2353BE9F00081233 /* SexoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6A2092353BE9F00081233 /* SexoCell.swift */; };
+		1FE6A20C2353BF3000081233 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6A20B2353BF3000081233 /* ColorCell.swift */; };
+		D72F82644EB8A48DC5E34D44 /* Pods_Test_UPAX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4D3D7BFC39F9BA5D1080A0 /* Pods_Test_UPAX.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,17 @@
 		1FE6A1F123503F0000081233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FE6A1F92350403100081233 /* PrimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimerViewController.swift; sourceTree = "<group>"; };
 		1FE6A1FB235040A000081233 /* primerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primerTableViewCell.swift; sourceTree = "<group>"; };
+		1FE6A1FD23530D9F00081233 /* SegundoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundoViewController.swift; sourceTree = "<group>"; };
+		1FE6A1FF23530E0C00081233 /* CamaraCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamaraCell.swift; sourceTree = "<group>"; };
+		1FE6A20123530E3100081233 /* FotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoCell.swift; sourceTree = "<group>"; };
+		1FE6A20323530E4700081233 /* NombreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NombreCell.swift; sourceTree = "<group>"; };
+		1FE6A2052353121800081233 /* TelefonoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonoCell.swift; sourceTree = "<group>"; };
+		1FE6A207235312B100081233 /* FechaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FechaCell.swift; sourceTree = "<group>"; };
+		1FE6A2092353BE9F00081233 /* SexoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexoCell.swift; sourceTree = "<group>"; };
+		1FE6A20B2353BF3000081233 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		20114A0F62CC24431A9939CB /* Pods-Test_UPAX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_UPAX.release.xcconfig"; path = "Target Support Files/Pods-Test_UPAX/Pods-Test_UPAX.release.xcconfig"; sourceTree = "<group>"; };
+		CE4D3D7BFC39F9BA5D1080A0 /* Pods_Test_UPAX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_UPAX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D506EDC6627C29A7F63878 /* Pods-Test_UPAX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_UPAX.debug.xcconfig"; path = "Target Support Files/Pods-Test_UPAX/Pods-Test_UPAX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72F82644EB8A48DC5E34D44 /* Pods_Test_UPAX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +65,8 @@
 			children = (
 				1FE6A1E223503F0000081233 /* Test_UPAX */,
 				1FE6A1E123503F0000081233 /* Products */,
+				A653740DC26A2DDDE5866EE8 /* Pods */,
+				FBE9334588EA7C5055ACFA08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				1FE6A1F92350403100081233 /* PrimerViewController.swift */,
+				1FE6A1FD23530D9F00081233 /* SegundoViewController.swift */,
 			);
 			path = View_Controllers;
 			sourceTree = "<group>";
@@ -82,8 +106,33 @@
 			isa = PBXGroup;
 			children = (
 				1FE6A1FB235040A000081233 /* primerTableViewCell.swift */,
+				1FE6A1FF23530E0C00081233 /* CamaraCell.swift */,
+				1FE6A20123530E3100081233 /* FotoCell.swift */,
+				1FE6A20323530E4700081233 /* NombreCell.swift */,
+				1FE6A2052353121800081233 /* TelefonoCell.swift */,
+				1FE6A207235312B100081233 /* FechaCell.swift */,
+				1FE6A2092353BE9F00081233 /* SexoCell.swift */,
+				1FE6A20B2353BF3000081233 /* ColorCell.swift */,
 			);
 			path = TableCells;
+			sourceTree = "<group>";
+		};
+		A653740DC26A2DDDE5866EE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7D506EDC6627C29A7F63878 /* Pods-Test_UPAX.debug.xcconfig */,
+				20114A0F62CC24431A9939CB /* Pods-Test_UPAX.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FBE9334588EA7C5055ACFA08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE4D3D7BFC39F9BA5D1080A0 /* Pods_Test_UPAX.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FE6A1F423503F0000081233 /* Build configuration list for PBXNativeTarget "Test_UPAX" */;
 			buildPhases = (
+				5058B03961F6224F25FB62DA /* [CP] Check Pods Manifest.lock */,
 				1FE6A1DC23503F0000081233 /* Sources */,
 				1FE6A1DD23503F0000081233 /* Frameworks */,
 				1FE6A1DE23503F0000081233 /* Resources */,
+				85BF9BEBB182EED90F663D32 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,15 +203,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5058B03961F6224F25FB62DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test_UPAX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85BF9BEBB182EED90F663D32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test_UPAX/Pods-Test_UPAX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test_UPAX/Pods-Test_UPAX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test_UPAX/Pods-Test_UPAX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FE6A1DC23503F0000081233 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE6A20023530E0C00081233 /* CamaraCell.swift in Sources */,
 				1FE6A1E423503F0000081233 /* AppDelegate.swift in Sources */,
+				1FE6A20A2353BE9F00081233 /* SexoCell.swift in Sources */,
 				1FE6A1E623503F0000081233 /* SceneDelegate.swift in Sources */,
+				1FE6A20223530E3100081233 /* FotoCell.swift in Sources */,
+				1FE6A20C2353BF3000081233 /* ColorCell.swift in Sources */,
 				1FE6A1FC235040A000081233 /* primerTableViewCell.swift in Sources */,
+				1FE6A208235312B100081233 /* FechaCell.swift in Sources */,
 				1FE6A1FA2350403100081233 /* PrimerViewController.swift in Sources */,
+				1FE6A20423530E4700081233 /* NombreCell.swift in Sources */,
+				1FE6A2062353121800081233 /* TelefonoCell.swift in Sources */,
+				1FE6A1FE23530D9F00081233 /* SegundoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +403,7 @@
 		};
 		1FE6A1F523503F0000081233 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D506EDC6627C29A7F63878 /* Pods-Test_UPAX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -320,6 +422,7 @@
 		};
 		1FE6A1F623503F0000081233 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20114A0F62CC24431A9939CB /* Pods-Test_UPAX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
