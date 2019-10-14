@@ -89,6 +89,20 @@ class PrimerViewController: UIViewController, UITableViewDelegate, UITableViewDa
 // MARK: - Actions
     
     
+    @IBAction func passToSecondVC(_ sender: Any) {
+        if (arrayPass.count == 0) {
+            let alert = UIAlertController(title: "Error", message: "Favor de seleccionar al menos una celda", preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: { _ -> Void in
+                self.navigationController?.isNavigationBarHidden = false
+            })
+            self.present(alert, animated: true, completion: nil)
+            alert.addAction(okAction)
+        } else {
+            performSegue(withIdentifier: "pass", sender: nil)
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -96,14 +110,16 @@ class PrimerViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "pass" {
+            print(self.arrayPass)
+            let vc = segue.destination as! SegundoViewController
+            vc.arrayPassed = self.arrayPass as! [String]
+        }
     }
-    */
+    
 
 }
